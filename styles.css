@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Cursed Timer';
+    src: url(fonts/CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    font-size: 30px;
+    background: #DA9A2E;
+    color: #E5E7EB;
+}
+
+.scoreboard {
+    margin: 50px auto;
+    border: solid #111827 10px;
+    border-radius: 20px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px black;
+}
+
+.home-container {
+    margin: 50px 40px;
+}
+
+.guest-container {
+    margin: 50px 40px;
+}
+
+.title {
+    margin: 15px 0;
+}
+
+.score-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 150px;
+    height: 110px;
+    padding: 10px;
+    margin: 5px 0 15px;
+
+    border-radius: 10px;
+
+    background: #111827;
+    box-shadow: 0px 0px 5px black;
+
+}
+
+.score-text {
+    margin: 15px 0 0;
+    font-size: 90px;
+    font-family: 'Cursed Timer', sans-serif;
+}
+
+button {
+    background: transparent;
+    border: solid 2px #E5E7EB;
+    border-radius: 5px;
+    padding: 12px 10px;
+    margin: 5px 2px;
+
+    color: #E5E7EB;
+
+
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Cursed Timer', sans-serif;
+}
+
+button:hover {
+    border-radius: 8px;
+    font-size: 23px;
+    background: #111827;
+    cursor: pointer;
+    transition: 1s;
+    
+}
