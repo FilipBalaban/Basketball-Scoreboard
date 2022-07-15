@@ -19,53 +19,61 @@
 </head>
 <body>
     <div class="scoreboard">
+        <div class="container-top">
+                <!-- Home -->
+            <div class="home-container">
+                <h2 class="title">HOME</h2>
+                <div class="score-box">
+                    <h3 class="score-text" id="home-score">0</h3>
+                </div>
 
-        <!-- Home -->
-        <div class="home-container">
-            <h2 class="title">HOME</h2>
-            <div class="score-box">
-                <h3 class="score-text" id="home-score">0</h3>
+                <!-- buttons -->
+                <div class="button-container">
+                    <!-- +1 -->
+                    <span>
+                        <button onclick="ptHome1()">+1</button>
+                    </span>
+                    <!-- +2 -->
+                    <span>
+                        <button onclick="ptHome2()">+2</button>
+                    </span>
+                    <!-- +3 -->
+                    <span>
+                        <button onclick="ptHome3()">+3</button>
+                    </span>
+                </div>
             </div>
 
-            <!-- buttons -->
-            <div class="button-container">
-                <!-- +1 -->
-                <span>
-                    <button onclick="ptHome1()">+1</button>
-                </span>
-                <!-- +2 -->
-                <span>
-                    <button onclick="ptHome2()">+2</button>
-                </span>
-                <!-- +3 -->
-                <span>
-                    <button onclick="ptHome3()">+3</button>
-                </span>
+            <!-- Guest -->
+            <div class="guest-container">
+                <h2 class="title">GUEST</h2>
+                <div class="score-box">
+                    <h3 class="score-text" id="guest-score">0</h3>
+                </div>
+
+                <!-- buttons -->
+                <div class="button-container">
+                    <!-- +1 -->
+                    <span>
+                        <button onclick="ptGuest1()">+1</button>
+                    </span>
+                    <!-- +2 -->
+                    <span>
+                        <button onclick="ptGuest2()">+2</button>
+                    </span>
+                    <!-- +3 -->
+                    <span>
+                        <button onclick="ptGuest3()">+3</button>
+                    </span>
+                </div>
             </div>
+
         </div>
+        
 
-        <!-- Guest -->
-        <div class="guest-container">
-            <h2 class="title">GUEST</h2>
-            <div class="score-box">
-                <h3 class="score-text" id="guest-score">0</h3>
-            </div>
-
-            <!-- buttons -->
-            <div class="button-container">
-                <!-- +1 -->
-                <span>
-                    <button onclick="ptGuest1()">+1</button>
-                </span>
-                <!-- +2 -->
-                <span>
-                    <button onclick="ptGuest2()">+2</button>
-                </span>
-                <!-- +3 -->
-                <span>
-                    <button onclick="ptGuest3()">+3</button>
-                </span>
-            </div>
+        <!-- New Game button -->
+        <div class="container-bottom">
+            <button class="new-game-btn">NEW GAME</button>
         </div>
     </div>
 

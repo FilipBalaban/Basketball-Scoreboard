@@ -23,10 +23,22 @@ body {
     border-radius: 20px;
     width: 600px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 5px black;
 }
+
+.container-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+
 
 .home-container {
     margin: 50px 40px;
@@ -84,4 +96,25 @@ button:hover {
     cursor: pointer;
     transition: 1s;
     
+}
+
+.container-bottom {
+    margin: -25px auto 25px;
+}
+
+.new-game-btn {
+    border: solid 3px #E5E7EB;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 25px;
+    padding: 15px 25px;
+    background: #111827;
+}
+
+.new-game-btn:hover {
+    font-size: 30px;
+    background: #1c253c;
+    color: white;
+    border: white solid 4px;
+    transition: 1s;
 }
