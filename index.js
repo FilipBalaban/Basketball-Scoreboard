@@ -48,3 +48,11 @@ function ptGuest3() {
     guestPoints += 3
     guestScoreEl.textContent = guestPoints
 }
+
+function newGame() {
+    homePoints = 0
+    homeScoreEl.textContent = homePoints
+
+    guestPoints = 0
+    guestScoreEl.textContent = guestPoints
+}
